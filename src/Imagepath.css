@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+body{
+    background-color: lightgray;
+}
+.image{
+    width: 90%;
+    height: 70vh;
+    object-fit: contain;
+    padding: 50px 0;
+    padding-bottom: 20px;
+    box-shadow: 10px 10px 10px black;
+}
+.frwd-icon,.bkwd-icon{
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding-top:25px ;
+
+}
+h1{
+    padding-top: 20px;
+}
+.download-icon{
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    justify-content: center;
+    padding: 10px;
+}
